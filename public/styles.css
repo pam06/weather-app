@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #598be0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;  padding-bottom: 100px;
+  background-image: url("https://e0.pxfuel.com/wallpapers/265/950/desktop-wallpaper-windmill-wind.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inputDiv {
+  width: 100%;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  margin: 100px 0 20px 0;
+}
+
+.inputDiv input {
+  width: 400px;
+  height: 30px;
+  padding: 25px;
+}
+
+.inputDiv input::placeholder {
+  color: #fff;
+}
+
+.inputDiv button,
+.inputDiv input {
+  border-radius: 50px;
+  color: #fff;
+  box-shadow: rgb(255, 255, 255) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  background-color: #555454;
+  border: none;
+  font-size: 25px;
+  opacity: 0.9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inputDiv button {
+  width: 150px;
+  height: 80px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.inputDiv button:hover {
+  background-color: #333333;
+}
+
+.inputDiv img {
+  width: 70px;
+  height: 70px;
+}
+
+.outputDiv {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  justify-content: center;
+  padding: 25px;
+}
+
+.outputDivTemp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.outputDiv img {
+  width: 150px;
+  height: 150px;
+  padding-right: 20px;
+}
+
+.outputDiv h2 {
+  font-size: 40px;
+}
+
+.outputDiv h1 {
+  font-size: 50px;
+}
+
+
+.outputDivTemp,
+.outputDivWeather {
+  margin: 60px;
+  width: 25%;
+  height: 50%;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #ffffff36;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
